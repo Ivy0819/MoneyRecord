@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/blue_1"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+    <TextView
+        android:id="@+id/cancel_button"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:onClick="cancel_finish"
+        android:text="@string/cancel"/>
+    <TextView
+        android:id="@+id/out_come"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:onClick="income_outcome"
+        android:text="@string/income"/>
+    <TextView
+        android:id="@+id/in_come"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:onClick="income_outcome"
+        android:text="@string/outcome"/>
+    <TextView
+        android:id="@+id/finish_button"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:onClick="cancel_finish"
+        android:text="@string/finish"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

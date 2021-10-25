@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoneyRecord</string>
+    <string name="cancel">取消</string>
+    <string name="income">支出</string>
+    <string name="outcome">收入</string>
+    <string name="finish">完成</string>
+    <string name="yuan">元</string>
+    <string name="note">备注（最多140个字）</string>
+
+</resources>
