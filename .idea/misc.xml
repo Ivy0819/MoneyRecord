@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android/MyProgram/MoneyRecord/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android/MyProgram/MoneyRecord/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/android/MyProgram/MoneyRecord/app/src/main/res/layout/activity_time_set.xml" value="0.12864583333333332" />
         <entry key="..\:/android/MyProgram/MoneyRecord/app/src/main/res/layout/record_bar.xml" value="0.16666666666666666" />
         <entry key="..\:/android/MyProgram/MoneyRecord/app/src/main/res/layout/record_item_list.xml" value="0.17916666666666667" />
       </map>

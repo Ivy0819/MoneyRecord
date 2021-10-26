@@ -44,16 +44,43 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <EditText
-                android:id="@+id/note"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="10dp"
-                android:backgroundTint="@android:color/transparent"
+
+                <EditText
+                    android:id="@+id/note"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/note"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/record_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/note"/>
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/time_edit"
+                android:layout_alignBaseline="@id/time_edit"
+                android:backgroundTint="@android:color/transparent"
+                android:text="2021-10-26 09:22"/>
+            <ImageView
+                android:id="@+id/time_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="time_editor"
+                android:background="@drawable/ic_baseline_edit_24"/>
         </RelativeLayout>
-        
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="1dp"

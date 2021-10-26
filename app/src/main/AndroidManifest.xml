@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyRecord">
         <activity
+            android:name=".TimeSet"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
